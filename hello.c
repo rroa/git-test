@@ -9,7 +9,9 @@ int main(int argc, char * argv[])
 
     printf("Hello from C\n");
 
-    // Perform addition and print result
+    // Perform math operations and print result
     printf("%d + %d = %d\n", x, y, add(x, y));
+    printf("%d - %d = %d\n", x, y, sub(x, y));    
+    printf("%d x %d = %d\n", x, y, multi(x, y));    
     return 0;
 }
